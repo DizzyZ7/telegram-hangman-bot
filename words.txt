@@ -1,8 +1,0 @@
-python
-telegram
-hangman
-programming
-developer
-github
-repository
-persistence
