@@ -1,15 +1,19 @@
-# Telegram Hangman Bot
+Telegram Hangman Bot
 
-Простой бот "Виселица" для Telegram на Python.
+A simple Hangman game for Telegram with:
+	•	✅ SQLite (игры не теряются при перезапуске)
+	•	✅ /lang ru /lang en — выбор языка игроком
+	•	✅ /stats — статистика побед/поражений
 
-## Установка
+Установка и запуск
+pip install -r requirements.txt
+python bot.py
 
-1. Склонируйте репозиторий
-2. Создайте виртуальное окружение и активируйте его
+Создайте файл .env:
+BOT_TOKEN=ваш_токен_из_BotFather
 
-```bash
-python -m venv venv
-# Windows
-venv\\Scripts\\activate
-# macOS / Linux
-source venv/bin/activate
+Команды
+	•	/start — начать игру
+	•	/lang ru | en — выбрать язык
+	•	/stats — ваша статистика
+	•	/help — подсказка
